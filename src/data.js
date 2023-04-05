@@ -5,11 +5,7 @@ import ProfilePhoto3 from '../src/assets/img/profile3.png';
 
 // import about icons
 import Skill1 from '../src/assets/img/skills/skill1.png';
-import Skill2 from '../src/assets/img/skills/skill2.png';
-import Skill3 from '../src/assets/img/skills/skill3.png';
-import Skill4 from '../src/assets/img/skills/skill4.png';
-import Skill5 from '../src/assets/img/skills/skill5.png';
-import Skill6 from '../src/assets/img/skills/skill6.png';
+import Skill2 from '../src/assets/img/skills/skill3.png';
 
 // import team images
 import TeamMember1 from '../src/assets/img/lawyer1.png';
@@ -30,12 +26,8 @@ export const navigation = [
     href: 'home',
   },
   {
-    name: 'What we do',
+    name: 'Services we offer',
     href: 'skills',
-  },
-  {
-    name: 'Our team',
-    href: 'team',
   },
   {
     name: 'Contact us',
@@ -69,40 +61,28 @@ export const testimonials = [
 export const skills = [
   {
     icon: Skill1,
-    title: 'Corruption',
+    title: 'Documentation Services',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+    service1: 'Affidavits',
+    service2: 'Deed of Sale',
+    service3: 'Contract to Sell',
+    service4: 'Lease of Contract',
+    service5: 'Memorandum of Agreements',
+    service6: 'Special Power of Attorney',
   },
   {
     icon: Skill2,
-    title: 'Employment',
+    title: 'Property Management Services',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
-  },
-  {
-    icon: Skill3,
-    title: 'Real Estate',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
-  },
-  {
-    icon: Skill4,
-    title: 'Taxes',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
-  },
-  {
-    icon: Skill5,
-    title: 'Corporate',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
-  },
-  {
-    icon: Skill6,
-    title: 'Banking',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
-  },
+    service1: 'Consulting',
+    service2: 'Titling',
+    service3: 'Transfer of Titles',
+    service4: 'Settlement of Estates',
+    service5: 'Assumption of Mortgage',
+    service6: 'Administration of Estate',
+},
 ];
 
 // team data
@@ -148,3 +128,4 @@ export const social = [
     icon: PinterestIcon,
   },
 ];
+
