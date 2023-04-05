@@ -21,8 +21,8 @@ const App = () => {
     <Footer />
     <BackToTopBtn />
     <MessengerCustomerChat
-      pageId="105153695882106"
-      appId="215246734486991"
+      pageId='105153695882106'
+      appId='215246734486991'
     />
   </div>
   )
