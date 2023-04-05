@@ -7,6 +7,7 @@ import Newsletter from './components/Newsletter'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import BackToTopBtn from './components/BackToTopBtn'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 
 const App = () => {
   return (
@@ -19,6 +20,10 @@ const App = () => {
     <Contact />
     <Footer />
     <BackToTopBtn />
+    <MessengerCustomerChat
+      pageId="105153695882106"
+      appId="215246734486991"
+    />
   </div>
   )
 }
