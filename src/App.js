@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from './components/Banner'
 import Testimonials from './components/Testimonials'
+import About from './components/About'
 import Skills from './components/Skills'
 import Newsletter from './components/Newsletter'
 import Contact from './components/Contact'
@@ -12,6 +13,7 @@ const App = () => {
   <div>
     <Banner />
     <Testimonials />
+    <About />
     <Skills />
     <Newsletter />
     <Contact />

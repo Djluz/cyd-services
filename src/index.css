@@ -10,10 +10,10 @@
     @apply py-24;
   }
   .form-control {
-    @apply h-54 w-full pl-4 rounded-sm outline-none font-body text-sm text-gray focus:ring-1 focus:ring-primary;
+    @apply w-full pl-4 text-sm rounded-sm outline-none h-54 font-body text-gray focus:ring-1 focus:ring-primary;
   }
   .btn {
-    @apply h-54 font-body font-semibold text-sm tracking-wide rounded-sm w-full flex items-center justify-center uppercase text-white;
+    @apply flex items-center justify-center w-full text-sm font-semibold tracking-wide text-white uppercase rounded-sm h-54 font-body;
   }
   .textarea {
     @apply w-full pl-4 pt-4 rounded-sm outline-none font-body text-sm text-gray focus:ring-1 focus:ring-primary min-h-[126px] resize-none;

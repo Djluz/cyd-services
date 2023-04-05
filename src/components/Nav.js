@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 const Nav = () => {
   return (
     <nav className='hidden lg:flex'>
-      <ul className='space-x-6 text-lg font-semibold lg:flex font-body text-primary'>
+      <ul className='space-x-8 text-sm font-semibold lg:flex font-body text-primary'>
         {navigation.map((item, index)=> {
           return <li key={index}>
             <Link

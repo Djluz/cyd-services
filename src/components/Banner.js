@@ -13,7 +13,7 @@ const Banner = () => {
                     Your Problem <br /> <span className='text-accent'>Our Goal.</span>
                 </h1>
                 <p className='max-w-sm mx-auto mb-[50px] lg:mx-0 lg:max-w-[540px]'>
-                    Lorem ipsum dolor sir amet consectetur, adipisicing elit.
+                    Specialize in speed implementation, process improvement, and maximum support.
                 </p>
                 <div className='mx-auto lg:absolute max-w-[445px]  lg:mx-0'>
                     <Appointment />

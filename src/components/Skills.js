@@ -6,13 +6,11 @@ const Skills = () => {
   return (
     <section id='skills' className='section bg-[#f8f3eca1] pb-32'>
         <div className='container mx-auto text-center'>
-            <h2 className='mb-4 text-5xl font-extrabold font-primary'>
+            <h2 className='mb-24 text-5xl font-extrabold font-primary'>
                 Services we offer
             </h2>
-            <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[60px]'>
-                Lorem ipsum dolor sir amet consectetur adipisicing elit.
-            </p>
-            <div className='columns-2'>
+
+            <div className='columns-1 lg:columns-2'>
                 {skills.map((item, index)=> {
                     const {icon, title, description, service1, service2, service3, service4, service5, service6} = item;
                     return (
@@ -21,10 +19,10 @@ const Skills = () => {
                             <h4 className='mb-4 text-3xl font-bold font-primary'>
                                 {title}
                             </h4>
-                            <p className='max-w-[1600px] lg:max-w-[450px]'>
+                            <p className='max-w-[1600px] lg:max-w-[400px]'>
                                 {description}
                             </p>
-                            <ul className='pt-5 text-lg font-semibold text-left '>
+                            <ul className='pt-10 text-lg font-semibold text-left '>
                                 <li className='flex gap-3 py-2'><BsFillXDiamondFill className='mt-2 text-xs text-accent' />{service1}</li>
                                 <li className='flex gap-3 py-2'><BsFillXDiamondFill className='mt-2 text-xs text-accent' />{service2}</li>
                                 <li className='flex gap-3 py-2'><BsFillXDiamondFill className='mt-2 text-xs text-accent' />{service3}</li>

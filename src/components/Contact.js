@@ -10,7 +10,7 @@ const Contact = () => {
                 Contact us
             </h2>
             <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[64px]'>
-                Lorem ipsum
+                Drop us an email and we'll get back to you as soon as we can.
             </p>
             <form className='px-8 lg:px-0 max-w-[600px] mx-auto flex flex-col space-y-6 mb-[46px]'>
                 <input className='form-control' placeholder='Full Name' type='text' />
@@ -24,7 +24,7 @@ const Contact = () => {
             <div className='flex items-center justify-between max-w-[205px] mx-auto'>
                 {social.map((item, index)=> {
                     return (
-                        <a href='#' key={index}>
+                        <a href={item.href} key={index} target='_blank' rel='noreferrer'>
                             <img src={item.icon} alt='' />
                         </a>
                     )
