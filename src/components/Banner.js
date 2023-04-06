@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <section id='home' className='lg:h-full lg:max-h-800 bg-gradient-to-t from-[#f8f3ec] to-[#e0c8ac]'>
         <Header/>
-        <div className='container h-full pt-32 mx-auto lg:flex'>
+        <div className='container h-full pt-32 mx-auto lg:flex lg:px-10'>
             <div className='h-full px-8 mx-auto text-center lg:text-left md:p-0'>
                 <h1 className='mb-4 text-6xl font-black font-primary lg:7xl text-primary lg:mt-[70px] leading-tight lg:leading-[90px]'>
                     Your Problem <br /> <span className='text-accent'>Our Goal.</span>
@@ -15,7 +15,7 @@ const Banner = () => {
                 <p className='max-w-sm mx-auto mb-[50px] lg:mx-0 lg:max-w-[540px]'>
                     Specialize in speed implementation, process improvement, and maximum support.
                 </p>
-                <div className='mx-auto lg:absolute max-w-[445px]  lg:mx-0'>
+                <div className='mx-auto lg:absolute max-w-[445px] lg:max-w-[400px] lg:mx-0'>
                     <Appointment />
                 </div>
             </div>
